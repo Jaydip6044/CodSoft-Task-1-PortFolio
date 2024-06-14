@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+header{
+    height: 100px;
+    background-color: rgb(8, 8, 101);
+    text-align: center;
+    color: antiquewhite;
+}
+
+header h1{
+    padding: 20px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 10px;
+}
+
+li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: bisque;
+    font-weight: 700;
+}
+
+/* Section 1 for About content */
+.About{
+    height: 350px;
+    background-color: rgb(12, 150, 150);
+    color: antiquewhite;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.About-content img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* Section 2 for Skills */
+.Skills{
+    height: 250px;
+    background-color: aqua;
+    color: black;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.Skills h2{
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.Skill-content{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.Skill-content ul li{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+/* Section 3 for Projects */
+.Project h2{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.Project p{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: 500;
+}
+
+/* Section-4 for Resume */
+.Resume{
+    height: 200px;
+    background-color: aquamarine;
+    margin-top: 40px;
+}
+
+/* Section-5 for Contact */
+.Contact{
+    height: 200px;
+    background-color: cornflowerblue;
+}
+
+/* Footer */
+footer{
+    height: 70px;
+    color: antiquewhite;
+    background-color: darkslategray;
+    align-items: center;
+}
+
+footer p{
+    padding-top: 20px;
+    padding-left: 850px;
+}
